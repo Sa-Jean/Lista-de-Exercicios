@@ -1,0 +1,1 @@
+#Ex 3 - Verifique se um inteiro positivo n é primo.
