@@ -10,3 +10,17 @@
 #d. - Sindicato ( 5%) : R$
 #e. = Salário Liquido : R$
 
+h = int(input('Quanto você recebe por hora trabalhada: '))
+t = int(input('Quantas horas trabalha por mês: '))
+sb = h * t
+IR = sb * (11/100)
+INSS = sb * (8/100)
+Sindicato = sb * (5/100)
+print(f'Salário Bruto: {sb}R$')
+print(f'IR: {IR}R$')
+print(f'INSS: {INSS}R$')
+print(f'Sindicato: {Sindicato}R$')
+print(f'Salário Liquido: {sb - IR - INSS - Sindicato }R$')
+
+
+

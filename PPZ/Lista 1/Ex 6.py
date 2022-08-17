@@ -4,4 +4,4 @@
 d = int(input(f'Digite qual a distancia do percuso em KM: '))
 v = int(input(f'Digite a velocidade media esperada para a viagem: '))
 
-print(f'O tempo de viagem estimado é de: {d / v} horas')
+print(f'O tempo de viagem estimado é de: {d / v: .1f} horas')

@@ -9,4 +9,4 @@ total_C =((anos * 365) * dia)
 total_m =(total_C * 10)
 total_h =(total_m / 60)
 
-print(f'O total de dias perdidos devido ao cigarro é: {total_h / 24} Dias')
+print(f'O total de dias perdidos devido ao cigarro é: {total_h / 24: .1f} Dias')

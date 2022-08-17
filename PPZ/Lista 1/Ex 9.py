@@ -5,6 +5,6 @@
 dist = int(input(f'Quantos Km foram percorridos: '))
 dias = int(input(f'Quantos dias o carro ficou alugado: '))
 
-print(f'O valor total do aluguel é: {(dias * 60) + (dist * 0.15)}R$')
+print(f'O valor total do aluguel é: {(dias * 60) + (dist * 0.15): .2f}R$')
 
 

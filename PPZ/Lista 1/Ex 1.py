@@ -1,5 +1,5 @@
 #Ex 1 - Faça um programa que peça dois números inteiros e imprima a soma desses dois números
 
 a = int(input('Digite um numero: '))
-b = int(input('digite um nuymero: '))
+b = int(input('digite um numero: '))
 print(f'A soma dos dois numeros é: {a + b}')

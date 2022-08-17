@@ -5,3 +5,12 @@
 # Informe ao usuário a quantidades de latas de tinta a serem compradas e o preço total.
 # Obs. : somente são vendidos um número inteiro de latas
 
+t = int(input('Qual tamanho da area a ser pintada em Metros Quadrados: '))
+l = 54 #metros que podem pintar
+
+resto = t % l
+c = t // l
+if resto == 0:
+    print(f'Você precisará comprar: {c} Latas de tinta')
+else:
+    print(f'Você precisará comprar: {c+1} Latas de tinta')
