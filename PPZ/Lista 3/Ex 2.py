@@ -4,7 +4,7 @@
 user = input('Digite seu username: ')
 pw = input('Digite sua senha: ')
 while user == pw:
-    print('Sua senha nao pode ser igual ao usename')
+    print('Sua senha nao pode ser igual ao username')
     pw = input('Digite sua senha: ')
 else:
-    print()
+    print('Username e Senha gravados com sucesso')

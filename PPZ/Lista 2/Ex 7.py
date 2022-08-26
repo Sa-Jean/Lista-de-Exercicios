@@ -12,5 +12,7 @@ resto = t % l
 c = t // l
 if resto == 0:
     print(f'Você precisará comprar: {c} Latas de tinta')
+    print(f'Valor total: {c * 80: .2f}R$')
 else:
     print(f'Você precisará comprar: {c+1} Latas de tinta')
+    print(f'Valor total: {(c + 1)* 80}R$')

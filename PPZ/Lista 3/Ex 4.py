@@ -2,10 +2,14 @@
 # os dois primeiros elementos são 1; a partir de então, cada elemento é a soma dos dois anteriores.
 # Faça um algoritmo que leia um número inteiro calcule o seu número de Fibonacci. F1 = 1, F2 = 1, F3 = 2, etc
 
-x = int(input('Digite um numero'))
-def rec_fib(n):
-    if n > 1:
-        return rec_fib(n-1) + rec_fib(n-2)
-    return n
-for i in range(x):
-    print(rec_fib(i))
+n = int(input('Digite um numero: '))
+
+a, b = 1 , 1
+k = 1
+
+while k <= n - 2:
+    a, b = b, a + b
+    k = k + 1
+print(b)
+
+

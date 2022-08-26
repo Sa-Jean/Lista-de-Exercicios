@@ -1,20 +1,10 @@
 #Ex 5 - Dados dois números inteiros positivos, determinar o máximo divisor comum entre eles usando o algoritmo de Euclides
 
-def main():
 
-    n = int(input("Digite n: "))
-    m = int(input("Digite m: "))
+a = int(input("Digite um numero: "))
+b = int(input("Digite um numero: "))
 
-    anterior  = n
-    atual     = m
+while a % b != 0:
+    a, b = b, a % b
 
-    resto = atual % anterior
-    while resto != 0:
-        resto = anterior % atual;
-        anterior = atual;
-        atual = resto;
-
-    print("MDC(%d,%d)=%d" %(n,m,anterior))
-
-#-------------------------------------------------
-main()
+print(f'O Máximo divisor comun entre eles é: {b}')

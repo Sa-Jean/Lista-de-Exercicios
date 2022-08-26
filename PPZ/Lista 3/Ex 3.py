@@ -12,5 +12,6 @@ while A <= B:
     anos = anos + 1
 else:
     print(f'Levará {anos} anos para que a população de A ultrapasse ou iguale a população de B')
-
+    print(f'Cidade A: {A: .2f}')
+    print(f'Cidade B: {B: .2f}')
 
