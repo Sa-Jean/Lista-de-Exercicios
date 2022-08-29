@@ -1,12 +1,17 @@
-data = input('dd / mm / aaa: ')
-k = 0
-troca = ''
-while k < len(data):
-    if data[k] in '/':
-        troca = troca + 'de'
-    else:
-        troca = troca + data[k]
-    k = k + 1
+#def fat(n):
+   # fat = 1
+    #for num in range(2, n + 1):
+       # fat *= num
+   # return(fat)
+
+def fat(n):
+    f = 1
+    while n > 0:
+        f = f * n
+        n = n - 1
+    return f
 
 
-print([troca])
+
+
+
